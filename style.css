@@ -54,7 +54,7 @@ footer {
 body {
     background-color: rgb(170, 170, 170);
     background-attachment: fixed;
-    background-image: url('/img/gray_background_01.jpg');
+    background-image: url('/img/blue light d.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,13 +85,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background: rgba(255, 255, 255, .7);
+    background: rgba(27, 189, 184, 0.7);
 }
 
 /* Logotipo usando "Font Awesome". */
 .wrap>header a {
     font-size: 70px;
-    color: white;
+    color: rgb(169, 202, 242);
     -webkit-text-stroke: 3px black;
     padding-left: .5rem;
     margin-top: -.5rem;
@@ -117,7 +117,7 @@ body {
  */
 
 .wrap>nav {
-    background: rgba(0, 0, 0, .75);
+    background: rgba(51, 16, 176, 0.75);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -130,14 +130,14 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    color: rgb(25, 16, 145);
     text-decoration: none;
     padding: .5rem;
 }
 
 .wrap>nav a:hover {
     color: black;
-    background: rgb(255, 255, 255);
+    background: rgb(80, 10, 161);
 }
 
 .wrap>nav span {

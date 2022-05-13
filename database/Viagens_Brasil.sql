@@ -68,10 +68,10 @@ INSERT INTO users (
     user_type
 ) VALUES 
 (
-    'Setembrino Trocatapas',
-    'set@brino.com',
-    '1990-10-14',
-    'https://randomuser.me/api/portraits/lego/6.jpg',
+    'Jucelino Silveira',
+    'jucelino@.com',
+    '1989-09-11',
+    'https://randomuser.me/api/portraits/lego/3.jpg',
     'Programador, agricultor, enrolador, fazedor de nada.',
     SHA1('Qw3rtyui0P'),
     'author'
@@ -80,7 +80,7 @@ INSERT INTO users (
     'Emegarda Sirineuza',
     'emen@siri.com',
     '2000-01-11',
-    'https://randomuser.me/api/portraits/lego/3.jpg',
+    'https://randomuser.me/api/portraits/lego/2.jpg',
     'Cantora, compositora, arranjadora, arrumadora e operadora.',
     SHA1('Qw3rtyui0P'),
     'user'
@@ -89,7 +89,7 @@ INSERT INTO users (
     'Eletricildo Chocante',
     'eletro@choque.com',
     '1981-05-02',
-    'https://randomuser.me/api/portraits/lego/5.jpg',
+    'https://randomuser.me/api/portraits/lego/6.jpg',
     'Motorista, eletricista, ortopedista e horista.',
     SHA1('Qw3rtyui0P'),
     'admin'
@@ -98,7 +98,7 @@ INSERT INTO users (
     'Juanita Malita',
     'nitamalita@gmail.com',
     '1991-10-12',
-    'https://randomuser.me/api/portraits/lego/1.jpg',
+    'https://randomuser.me/api/portraits/lego/4.jpg',
     'Motorista, eletricista, ortopedista e horista.',
     SHA1('Qw3rtyui0P'),
     'author'
@@ -107,7 +107,7 @@ INSERT INTO users (
     'Genesito Malito',
     'genemalito@google.com',
     '2000-11-01',
-    'https://randomuser.me/api/portraits/lego/2.jpg',
+    'https://randomuser.me/api/portraits/lego/1.jpg',
     'Motorista, eletricista, ortopedista e horista.',
     SHA1('Qw3rtyui0P'),
     'author'
@@ -123,7 +123,8 @@ INSERT INTO articles (
 ) VALUES
 (
     'Primeiro artigo',
-    'Como fazer alguma coisa que você não sabe fazer.',
+    'Como fazer Viagens Baratas.',
+    'Dicas para viagens com preços acessíveis!!!',
     '/img/articles/1.jpg',
     '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat, nesciunt iure porro aliquid id consequuntur nisi placeat assumenda vero magni repellendus possimus corporis sed, quaerat totam? Veniam, pariatur ex?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sunt quo nam commodi repudiandae voluptas excepturi est aut iste veniam. Itaque possimus ullam eius quaerat? Quam aliquam eius corporis ut!</p><img src="https://picsum.photos/400/300" alt="Imagem aleátória"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quisquam amet, sunt, magnam debitis aliquam voluptates eius veniam explicabo molestias enim illo quam exercitationem ducimus vel eos eligendi aut libero.</p><ul><li><a href="https://guithub.com/Luferat">GitHub do Fessô</a></li><li><a href="http://catabits.com.br">Blog do Fessô</a></li><li><a href="https://bit.ly/LuferatMeet">Google Meet do Fessô</a></li></ul><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque deserunt perferendis sit voluptatum sunt, minus labore ratione modi nesciunt distinctio temporibus amet omnis sapiente, dicta repudiandae ipsum, eaque deleniti!</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quos quasi quis pariatur iure officia ab, eius beatae, fuga, in dolores neque possimus necessitatibus nostrum nulla expedita tempore harum tenetur?</p>',
     '1'
