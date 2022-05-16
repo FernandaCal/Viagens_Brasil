@@ -22,7 +22,7 @@
 
             <a href="/" title="Página inicial"><i class="fa-solid fa-plane fa-fw"></i></a>
 
-            <h1>Viagens_Brasil<small>Viajar é Vive!!!</small></h1>
+            <h1>Viagens_Brasil<small>Viajar é Viver!!!</small></h1>
 
         </header>
 
