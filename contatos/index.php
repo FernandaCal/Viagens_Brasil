@@ -76,7 +76,7 @@ SQL;
         // Mensagem do e-mail
         $mail_message = <<<TXT
 
-Novo contato enviado para Vitugo:
+Novo contato enviado para Viagens Brasil:
 
  - Remetente: {$name}
  - E-mail: {$email}
@@ -159,7 +159,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" name="contatos">
 
-            <p>Preencha todos os campos para entrar em contato com a equipe do Vitugo.</p>
+            <p>Preencha todos os campos para entrar em contato com a equipe do Viagens Brasil.</p>
 
             <?php if ($error != '') echo '<div class="error">' . $error . '</div>'; ?>
 
