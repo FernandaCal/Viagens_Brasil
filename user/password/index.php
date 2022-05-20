@@ -178,11 +178,9 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
     <?php endif; ?>
 
 </section>
-
 <aside>
 
-    <h3>Lateral</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
+<?php require($_SERVER['DOCUMENT_ROOT'] . '/user/_asidetools.php'); ?>
 
 </aside>
 

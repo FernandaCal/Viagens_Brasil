@@ -48,7 +48,7 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
     <p>Os autores do site Viagens Brasil foram Fernanda Cal e Gabriel Ferreira. Estudantes do curso Técnico de Informática do Senac de Madureira.</p>
 
     <h2 id="s3">Políticas de Privacidade</h2>
-    <p>A sua privacidade é importante para nós. É política do Viagens Brasil respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href=localhost>Viagens Brasil</a>, e outros sites que possuímos e operamos.</p>
+    <p>A sua privacidade é importante para nós. É política do Viagens Brasil respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href="http://viagensbrasil.lovestoblog.com/r">Viagens Brasil</a>, e outros sites que possuímos e operamos.</p>
     <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado. </p>
     <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p>
     <p>Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</p>
