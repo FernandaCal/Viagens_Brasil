@@ -41,13 +41,13 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <section>
 
-    <h2>Sobre</h2>
-    <p> Este site é dedicado  a informar sobre viagens ao redor do Brasil!!!</p>
+    <h2 id="s1">Sobre o site</h2>
+    <p> Este site é dedicado a informar sobre viagens ao redor do Brasil!!!</p>
 
-    <h2>Quem fez</h2>
+    <h2 id="s2">Quem faz</h2>
     <p>Os autores do site Viagens Brasil foram Fernanda Cal e Gabriel Ferreira. Estudantes do curso Técnico de Informática do Senac de Madureira.</p>
 
-    <h2>Políticas de Privacidade</h2>
+    <h2 id="s3">Políticas de Privacidade</h2>
     <p>A sua privacidade é importante para nós. É política do Viagens Brasil respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href=localhost>Viagens Brasil</a>, e outros sites que possuímos e operamos.</p>
     <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado. </p>
     <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p>
@@ -98,8 +98,21 @@ require($_SERVER['DOCUMENT_ROOT'] . '/_header.php');
 
 <aside>
 
-    <h3>Lateral</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aperiam corporis culpa consequatur iusto.</p>
+    <h3>Acesso Rápido</h3>
+
+    <p><a href="#s1">Sobre o site</a></p>
+    <p><a href="#s2">Quem Faz</a></p>
+    <p><a href="#s3">Políticas de Privacidade</a></p>
+
+    <?php
+
+    // Obtém os artigos mais visitados para a variável $mv.
+    $mv = mostViewed();
+
+    // Se existem artigos mais visitados, exibe eles...
+    if ($mv) echo "<h3>Mais visitados</h3>{$mv}";
+    ?>
+
 
 </aside>
 
